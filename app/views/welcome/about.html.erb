@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+	<style>
+		ul li {
+			float: left;
+			list-style: none;
+			padding: 0 10px;
+			}
+			li a{
+			text-decoration: none;
+			font-family: tahoma;
+			color:white;
+			font-size: 15px;
+			text-align: right;
+			}
+		.buttonContain{
+		background-color: grey;
+		}
+		.aboutalpha h2{
+		position: absolute;
+		margin-top: -200px;
+		margin-left: 20px;
+		color: white;
+		font-family: tahoma;
+		}
+		.aboutalpha p{
+		position: absolute;
+		margin-top: -150px;
+		margin-left: 30px;
+		color: white;
+		font-family: tahoma;
+		border-style: inset;
+		border-radius: 20px;
+		}
+    .aboutalpha{
+    background: url(/assets/rails.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;-o-background-size: cover;
+    background-size: cover;
+    }
+    .clear{
+      clear:both;
+    }
+	</style>
+</head>
+<body>
+	<div class="buttonContain">
+		<ul>
+			<li><a><%= link_to 'Home', root_path %></a></li>
+			<li><a><%= link_to 'About', about_path %></a></li>
+		</ul>
+	<div>
+    <div class="clear"></div>
+	<div class="aboutalpha">
+    <%=image_tag'image/rails.jpg', :height => '400px', :alt => 'background'%>
+			<h2><span>About Alpha blog</span></h2>
+			<p>This is all about Alpha Blog, using Ruby on Rails</p>
+	<div>
+</body>
+</html>
