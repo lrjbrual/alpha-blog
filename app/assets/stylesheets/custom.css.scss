@@ -23,7 +23,8 @@ $navbar-default-bg: #6E6E6E;
   background-image: asset-url('snow.jpg');
   background-size:cover;
   height: 550px;
-  opacity: 0.8;
+  opacity: 0.7;
+  border-radius: 1px;
 }
 .jumbotron h1{
   color: white;
@@ -33,7 +34,7 @@ $navbar-default-bg: #6E6E6E;
   font-weight: bold;
 }
 footer{
-  maring-top: 45px;
+  margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid gray;
   color:black;
