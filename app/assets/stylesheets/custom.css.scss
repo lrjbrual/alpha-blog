@@ -15,7 +15,15 @@ $navbar-default-bg: #6E6E6E;
   color:yellow;
   text-decoration:none;
 }
+.navbar-default .navbar-nav .nav-color {
+    color: white;
+    font-size: 1em;
+}
 
+.navbar-default .navbar-nav .dropdown-menu .nav-color {
+    color: white;
+    font-size: 1em;
+}
 .center{
   text-align:center;
 }
