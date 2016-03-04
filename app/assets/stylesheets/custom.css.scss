@@ -43,9 +43,13 @@ $navbar-default-bg: #6E6E6E;
   font-weight: bold;
 }
 
+.article-meta-details{
+  border-top: 1px solid #eaeaea;
+}
+
 .article-actions {
   border-top: 1px solid #eaeaea;
-  padding-top: 5px;
+  padding-top: 3px;
 }
 .description{
   margin-top: 0px;
@@ -57,8 +61,8 @@ $navbar-default-bg: #6E6E6E;
 .article-body{
   border-bottom: 1px solid grey;
   padding-top: 10px;
-  padding-bottom: 15px;
-  margin-bottom: 5px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 footer{
