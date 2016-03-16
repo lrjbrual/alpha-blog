@@ -1,61 +1,18 @@
-<!doctype html>
-<html>
-<head>
-	<style>
-		ul li {
-			float: left;
-			list-style: none;
-			padding: 0 10px;
-			}
-			li a{
-			text-decoration: none;
-			font-family: tahoma;
-			color:white;
-			font-size: 15px;
-			text-align: right;
-			}
-		.buttonContain{
-		background-color: grey;
-		}
-		.aboutalpha h2{
-		position: absolute;
-		margin-top: -200px;
-		margin-left: 20px;
-		color: white;
-		font-family: tahoma;
-		}
-		.aboutalpha p{
-		position: absolute;
-		margin-top: -150px;
-		margin-left: 30px;
-		color: white;
-		font-family: tahoma;
-		border-style: inset;
-		border-radius: 20px;
-		}
-    .aboutalpha{
-    background: url(/assets/rails.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;-o-background-size: cover;
-    background-size: cover;
-    }
-    .clear{
-      clear:both;
-    }
-	</style>
-</head>
-<body>
-	<div class="buttonContain">
-		<ul>
-			<li><a><%= link_to 'Home', root_path %></a></li>
-			<li><a><%= link_to 'About', about_path %></a></li>
-		</ul>
-	<div>
-    <div class="clear"></div>
-	<div class="aboutalpha">
-    <%=image_tag'image/rails.jpg', :height => '400px', :alt => 'background'%>
-			<h2><span>About Alpha blog</span></h2>
-			<p>This is all about Alpha Blog, using Ruby on Rails</p>
-	<div>
-</body>
-</html>
+<div class="panel panel-default">
+  <!-- Info panel contents -->
+  <div class="panel-heading"><b>ABOUT FLORENCE BLOG</b></div>
+  <div class="panel-body">
+    <p><b>The blog is for the articles about living in Florence Italy, Here are the following details that you can do about this web blog:</b></p>
+    <ul>
+		<li>You can create your account using [sign up] button in home page</li>
+		<li>You can edit your profile and view your profile</li>
+		<li>Once you [sign up] you can create an article base on the category you want using Action > New Article then [select] the categories</li>
+		<li>You can edit your article</li>
+		<li>Your Profile and Article are listed once you sign up and your article about living in Florence Italy</li>
+    </ul>
+    <br />
+    <p><b>Good luck! and Happy writing..</b></p>
+    <br/><br/><br/>
+    <p>This blog is credited to: Complete Web Developer Course Ruby on Rails by: <b>Mashrur</b></p>
+    <p>Develop by:<a href="http://lrjbrual.com" target="_blank">Ryan Jeff Brual</a></p>
+  </div>
