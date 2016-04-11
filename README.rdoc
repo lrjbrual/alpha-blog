@@ -1,1 +1,17 @@
-This is repository for the first alpha-blog I created from Complete Ruby on Rails project
+The Florence blog is for the articles about living in Florence Italy.
+
+Here are the following details that you can do about this this code:
+
+You can create your account using [sign up] button in home page
+You can edit your profile and view your profile
+Once you [sign up] you can create an article base on the category you want using Action > New Article then [select] the categories
+You can edit your article
+Your Profile and Article are listed once you sign up and your article about living in Florence Italy
+
+Good luck! and Happy editing..
+
+
+This code is credited for: Complete Web Developer Course Ruby on Rails online class by: Mashrur
+
+Develop by: @RyanJeff
+
